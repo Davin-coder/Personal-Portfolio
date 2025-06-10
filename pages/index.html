@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/styles/style.css">
+    <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
+    <title>Portfolio | Home</title>
+</head>
+<body>
+    <div class="video-container">
+        <div class="video-overlay"></div>
+        <video onloadedmetadata="this.muted=true" autoplay loop>
+            <source src="../assets/media/background-video.mp4">
+        </video>
+    </div>
+    <header>
+        <h1>Personal Portfolio</h1>
+        <nav>
+            <a class="nav-option" href="./index.html">Home</a>
+            <a class="nav-option" href="#about-me">About me</a>
+            <a class="nav-option" href="#projects">Projects</a>
+            <a class="nav-option" href="./form.html">Contact</a>
+        </nav>
+    </header>
+    <main class="home-main">
+        <section id="about-me">
+            <h2>About Me</h2>
+            <div class="presentation-container">
+                <div class="presentation-container-secundary">
+                    <p>Hello, if you are looking for a great partner, you are in the correct place, let me talk you about me.</p>
+                    <p>My name is Alex David Tuiran Martinez, i'm 18 years old, I'm a coder from Riwi and creator of "Aquil", strategic partnert in marketing, selling, social medias and crypto, enthusiast of coding and game developing.</p>
+                    <p>Basic knowledge of different programming languages, like:</p>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>HTML and CSS</li>
+                        <li>Java</li>
+                    </ul>
+                </div>
+                <img class="image-about-me" src="./../assets/img/alex-image.jpg" alt="Alex-jpg">
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>I have participated in different personal projects, and in the future I plan to continue expanding my knowledge through other projects.</p>
+            <p>Some of these projects are:</p>
+            <div class="container-slider">
+                <div class="slider" id="slider">
+                    <section class="slider-section">
+                        <h3>Aquil</h3>
+                        <img class="slider-image" src="../assets/img/Aquil.jpeg" alt="Aquil-image">
+                    </section>
+                    <section class="slider-section">
+                        <h3>ChessGo</h3>
+                        <img class="slider-image" src="../assets/img/ChessGo-logo.jpg" alt="Chess-image">
+                    </section>
+                </div>
+                <div id="btn-left" class="arrow-left"><</div>
+                <div id="btn-right" class="arrow-right">></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2>SOCIAL MEDIAS</h2>
+        <ul>
+            <li><img class="social-media" src="./../assets/img/github.png" alt="Github-logo"><a href="https://github.com/Davin-coder">Github</a></li>
+            <li><img class="social-media" src="./../assets/img/discord-logo.png" alt="Discord-logo"><a href="https://discord.gg/3QTunQFG">Discord</a></li>
+            <li><img class="social-media" src="./../assets/img/instagram-new (1).png" alt="Instagram-logo"><a href="https://www.instagram.com/davin_coder?igsh=MWNjdDQ3bWZkbWtzdA==">Instagram</a></li>
+        </ul>
+    </footer>
+    <script src="../assets/src/main.js"></script>
+</body>
+</html>
